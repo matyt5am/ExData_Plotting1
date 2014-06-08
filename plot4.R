@@ -26,7 +26,7 @@ par(mfrow=c(2,2))
 ## Global Active Power plot
 plot(Data$DateTime,Data$Global_active_power 
      ,xlab=""
-     ,ylab="Global Active Power (kilowatts)"
+     ,ylab="Global Active Power"
      ,pch=NA
      )
 lines(Data$DateTime, Data$Global_active_power)
